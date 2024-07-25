@@ -1,4 +1,4 @@
-﻿# Temperature Comverter
+﻿# Temperature Converter
 
 <h2>Hey There!👋</h2>
 
