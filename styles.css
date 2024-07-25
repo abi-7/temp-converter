@@ -3,13 +3,14 @@ body {
   padding: 0;
 }
 
-#tempC, #tempF{
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
-    float: left;
-    width: 50%;
-    height: 100vh;
+#tempC,
+#tempF {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  float: left;
+  width: 50%;
+  height: 100vh;
 }
 #tempC {
   background-color: red;
@@ -18,11 +19,23 @@ body {
   background-color: blue;
 }
 
-#displayC {
+#displayC,
+#displayF {
+  font-size: 5rem;
+  width: 50%;
+  text-align: center;
   border: none;
   color: white;
 }
+#displayC {
+  background-color: red;
+}
 #displayF {
-  border: none;
-  color: white;
+  background-color: blue;
+}
+input,
+input:hover,
+input:focus,
+input:active {
+    transition: background-color 5000s ease-in-out 0s;
 }
