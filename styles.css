@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#tempC, #tempF{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    float: left;
+    width: 50%;
+    height: 100vh;
+}
+#tempC {
+  background-color: red;
+}
+#tempF {
+  background-color: blue;
+}
+
+#displayC {
+  border: none;
+  color: white;
+}
+#displayF {
+  border: none;
+  color: white;
+}
