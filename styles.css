@@ -72,6 +72,9 @@ button {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-button :active {
-  background-color: #2b2727; /* Light gray background when clicked */
+button:hover {
+  background-color: hsl(0, 3%, 83%); 
+}
+button:active {
+  background-color: hsl(0, 3%, 93%); 
 }
