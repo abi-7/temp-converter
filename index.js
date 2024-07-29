@@ -21,3 +21,8 @@ displayF.addEventListener("input", () => {
       displayC.value = "";
     }
   });
+
+function reset(){
+    displayC.value = 0;
+    displayF.value = 32;
+}
